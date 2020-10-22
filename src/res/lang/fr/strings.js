@@ -1,0 +1,21 @@
+import React from 'react'
+export const strings = {
+    lang: 'fr',
+    subtitle: <h3>Développeur de jeux, sites et applications</h3>, 
+    traduction: 'English - ENG',
+    about: <p> À propos </p>,
+    aboutTitle: <h2>Creativity is my finest tool.</h2>,
+    aboutMain: <p> À propos </p>,
+    aboutSchool: <p> À propos </p>,
+    aboutEnterprise: <p> À propos </p>,
+    aboutProg: <p> À propos </p>,
+    contact: <p> Contacte </p>,
+    contactMain: <p> À propos </p>,
+    contactTel: <p> À propos </p>,
+    projects: <p> Projets </p>,
+    projectsMain: <p> À propos </p>,
+    question: <p> Boîte de questions </p>,
+    questionMain: <p> À propos </p>,
+    questionBtn: <p> À propos </p>,
+    goBack: <p> À propos </p>,
+} 
