@@ -226,6 +226,16 @@
   width: 100%;
   font-size: 1.7vw;
 }
+.table-contact, th, td{
+  border: .3rem solid black;
+  border-collapse: collapse;
+}
+.project-table {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 10rem;
+}
+
 
 @keyframes fadeIn {
   from {transform: translateY(-10rem); opacity: 0;}
