@@ -2,10 +2,14 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 import HomeScreen from  './Screens/HomeScreen'
 import AboutScreen from  './Screens/AboutScreen'
+import ContactScreen from  './Screens/ContactScreen'
+import ProjectScreen from  './Screens/ProjectScreen'
+import QuestionScreen from  './Screens/QuestionScreen'
 import './App.css';
 import { useCurrentLang } from './utils/useCurrentLang'
 import {strings as engstrings} from './res/lang/eng/strings'
 import {LanguageProvider, useLanguage} from './utils/LanguageContextProvider'
+import ContatcScreen from './Screens/ContactScreen';
 
 function App() {
   const [lang, setLang] = useLanguage(); 
@@ -29,7 +33,7 @@ function App() {
               {lang.subtitle}
             </div>
             <div className="header-right">
-              <button onClick={() => handleLanguageChange()}>{lang.traduction} </button>
+              <button className="button" onClick={() => handleLanguageChange()}>{lang.traduction} </button>
             </div>
             <div>
 
@@ -39,6 +43,9 @@ function App() {
             <div className="content">
               <Route path="/" exact={true} component={HomeScreen} />
               <Route path="/about" component={AboutScreen}/>
+              <Route path="/contact" component={ContactScreen}/>
+              <Route path="/project" component={ProjectScreen}/>
+              <Route path="/question" component={QuestionScreen}/>
             </div>
 
           </main>

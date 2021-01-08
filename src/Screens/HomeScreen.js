@@ -9,26 +9,27 @@ function HomeScreen() {
     const [lang, setLang] = useLanguage(); 
     return <div className="home">
         <ul className="menu-list">
-            <li className="fade-in section about" >
-                <div>
-                    <Link to="/about">{lang.about}</Link>
-                </div>
-            </li>
-            <li className="fade-in section contacts ">
-                <div>
-                    <Link to="/about">{lang.contact}</Link>   
-                </div>
-            </li>
-            <li className="fade-in section projects">
-                <div>
-                    <Link to="/about">{lang.projects}</Link>
-                </div>
-            </li>
-            <li className="fade-in section question-box">
-                <div >
-                    <Link to="/about">{lang.question}</Link>   
-                </div>
-            </li>
+            <Link to="/about">
+                <li className="fade-in section about" >
+                    {lang.about}
+                </li>
+            </Link>
+            
+            <Link to="/contact">
+                <li className="fade-in section about" >
+                    {lang.contact}
+                </li>
+            </Link>
+            <Link to="/project">
+                <li className="fade-in section about" >
+                    {lang.projects}
+                </li>
+            </Link>
+            <Link to="/question">
+                <li className="fade-in section about" >
+                    {lang.question}
+                </li>
+            </Link>
         </ul>
         <div className="home-main-image fade-in">
             <img src={terminalImage} />
