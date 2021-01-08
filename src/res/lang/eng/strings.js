@@ -55,23 +55,23 @@ export const strings = {
       <th>Project Description</th>
     </tr>
     <tr>
-      <td>https://gitlab.com/juasjuasie/projet-synthese</td>
+      <td> <a href="https://gitlab.com/juasjuasie/projet-synthese">https://gitlab.com/juasjuasie/projet-synthese</a> </td>
       <td>2D shooter game made in Unity</td>
     </tr>
     <tr>
-      <td>https://gitlab.com/juasjuasie/flappybirddemo</td>
+      <td> <a href="https://gitlab.com/juasjuasie/flappybirddemo">https://gitlab.com/juasjuasie/flappybirddemo</a></td>
       <td>Flappy bird clone made in Unity</td>
     </tr>
     <tr>
-      <td>https://gitlab.com/juasjuasie/mobile2_tp3</td>
+      <td> <a href="https://gitlab.com/juasjuasie/mobile2_tp3">https://gitlab.com/juasjuasie/mobile2_tp3</a></td>
       <td>Android app that teaches you the basics of the hiragana alphabet</td>
     </tr>
     <tr>
-      <td>https://github.com/juasjuasie/EduardoBretonDevWebsite</td>
+      <td> <a href="https://github.com/juasjuasie/EduardoBretonDevWebsite">https://github.com/juasjuasie/EduardoBretonDevWebsite</a></td>
       <td>This site's source code!</td>
     </tr>
     <tr>
-      <td>https://github.com/juasjuasie/ExempleBluetoothFinal</td>
+      <td> <a href="https://github.com/juasjuasie/ExempleBluetoothFinal">https://github.com/juasjuasie/ExempleBluetoothFinal</a></td>
       <td>Android app that demonstrates a bluetooth connection to other devices.</td>
     </tr>
   </table>,
