@@ -1,3 +1,4 @@
+
 .grid-container{
   display: grid;
   grid-template-areas: 
@@ -42,6 +43,7 @@
 .main {
   grid-area: main;
   background-image: url("res/background_min.jpg");
+  overflow: hidden
 }
 
 .footer{
@@ -185,7 +187,7 @@
 }
 
 .title {
-  font-size: 2.6vw;
+  font-size: 3vw;
 }
 .list-intro {
   font-size: 3.8vw;
