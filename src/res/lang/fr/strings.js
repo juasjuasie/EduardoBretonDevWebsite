@@ -1,31 +1,31 @@
 import React from 'react'
 export const strings = {
-    lang : 'eng',
- subtitle: <h3>Developer of games, websites and apps</h3>,
- traduction: 'Français - FR',
- about: <h3 className="title centered"> About </h3>,
- aboutTitle: <h2>Creativity is my finest tool.</h2>,
+ lang : 'fr',
+ subtitle: <h3>Dévelopeur de jeux, sites web et applications</h3>,
+ traduction: 'English - ENG',
+ about: <h3 className="title centered"> À Propos </h3>,
+ aboutTitle: <h2>La creativité est mon outil d'excellence.</h2>,
  aboutMain: 
   <div className="paragraph-group">
     <div className="text-space">
-      <h2 className="title">Hello, i'm Eduardo Breton, a canadian developper specialised in the development of desktop programs, mobile apps and videogames.</h2>
+      <h2 className="title">Allo, je suis Eduardo Breton, un dévelopeur canadien specialisé dans le dévelopement des programmes de bureau, applications pour des cellulaire et des jeux videos.</h2>
     </div>
     <div className="paragraph-limiter centered">
-      <p className="paragraph">I have been working in interships and for the government of Canada, and i am currently interested to work as a freelancer.</p>
+      <p className="paragraph">J'ai travaillé en stages et pour le gouvernement de Canada, et je suis actualement interesé de travailler comme un travailleur indépendant.</p>
     </div>
     <div className="paragraph-limiter centered">
-      <p className="paragraph">Since in my teenage years in the province of Quebec, Canada, i have been a lover of technology and software since i was just a kid and have been 
-      overall invested on software and vidoegames that have a meaningfull use or that contains a message that makes people change for the better. 
-      My ethnic heritage has allowed me to speak and write fluently in french and spanish and had a lot of experience talking with people in these languages.
-      I am hoping the passion i have for the industry translates into great works.</p>
+      <p className="paragraph">Depuis mes années comme adolescent dans la province de Québec, Canada, j'ai aimé beaucoup la technologie et les logiciels et j'ai 
+      suis, en géneral, investi sur les logiciels et jeux vidéos qui ont une utilité practique ou qui contient un message qui fait changer postivement les personnes.
+      Mon héritage ethnique m'a permis de parler et écrire en anglais et espagnole, et j'ai ei beaucoup d'experience de me communique avec plusieurs individus avec ces langages.
+      J'espèere que la passion que j'ai pour l'industrie se transforment en de projets et de produits de qualité exceptionnelle.</p>
     </div>
     <div className="paragraph-limiter centered">
-      <h5 className="paragraph bold"><b>Currently, i am available to work on projects on a flexible, open-ended contracts while studying in Sherbrooke University.</b> </h5>
+      <h5 className="paragraph bold"><b>Actuellement, je suis disponible pour travailler dans des contrats qui sont flexibles et ouvertes pendant que je fait mes études dans l'Université de Sherbrooke.</b> </h5>
     </div>
   </div>,
-  aboutSchool: <p className="list-intro"> <b>Academic places and learning sites that contributed to my career:</b> </p>,
-  aboutEnterprise: <p className="list-intro"> <b> Enterprises and organisations i worked for:</b> </p>,
-  aboutProg: <p className="list-intro"> <b>Languages, Programs, Frameworks and Platforms i had experience with: </b> </p>,
+  aboutSchool: <p className="list-intro"> <b>Lieux academiques et sites d'apprentissage qui ont contribué ma carrière:</b> </p>,
+  aboutEnterprise: <p className="list-intro"> <b> Entreprises et organisations où j'ai travaillé:</b> </p>,
+  aboutProg: <p className="list-intro"> <b>Langages, Programmes, Frameworks et Plateformes j'eu de l'expérience avec: </b> </p>,
   
   
   contact: <h3 className="title centered">Contact</h3>,
@@ -44,7 +44,7 @@ export const strings = {
   </div> ,
   
   
-  projects: <h3 className="title padding-list"> Projects</h3>,
+  projects: <h3 className="title centered"> Projects</h3>,
   projectsMain: <p className="list-intro"> Here is a list of all projects, made alone or with a team, released publicly through Github: </p>,
   projectsList:
   <table className="table-contact centered">

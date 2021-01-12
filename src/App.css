@@ -1,4 +1,5 @@
 
+
 .grid-container{
   display: grid;
   grid-template-areas: 
@@ -9,6 +10,9 @@
   grid-template-rows: 5rem 1fr 3rem;
   height: 100%;
 }
+
+#container { display: flex; flex-direction: column; }
+#down { flex-grow: 1; }
 
 .header{
   grid-area: header;
@@ -42,8 +46,9 @@
 
 .main {
   grid-area: main;
+  display: flex;
+  flex-direction: column;
   background-image: url("res/background_min.jpg");
-  overflow: hidden
 }
 
 .footer{
@@ -56,16 +61,24 @@
   align-items: center;
 }
 
+.content{
+  display: flex;
+  flex-grow: 1;
+}
+
 /*Home Screen*/
 .home{
   display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  
 }
 .menu-list{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 100%;
 }
 
 .menu-list a {
@@ -139,7 +152,6 @@
   text-align: center;
   color: white;
   text-decoration: none;
-  font-size: 1vw;
   padding: .5rem;
 }
 /*About*/
@@ -168,7 +180,8 @@
 .logo {
   width: 100%;
   max-height: auto;
-  max-width: 35vw;
+  max-width: 18vw;
+  min-height: 5vh;
 }
 
 .text-space{
@@ -189,17 +202,25 @@
 .title {
   font-size: 3vw;
 }
+
+
 .list-intro {
-  font-size: 3.8vw;
+  font-size: 2.5vw;
   padding-left: 2rem;
+  padding-right: 2rem;
+}
+@media only screen and (max-width: 740px) {
+  .title{
+    font-size: 1.6vw;
+  }
 }
 .paragraph-group{
   padding-bottom: 40rem;
 
 }
 .paragraph-limiter{
-  padding-left: 40rem;
-  padding-right: 40rem;
+  padding-left: 4vh;
+  padding-right: 4vh;
 }
 
 .centered{
@@ -217,8 +238,8 @@
 }
 
 .contact-title-section{
-  padding-top: 10rem;
-  padding-bottom: 20rem;
+  padding-top: 10vh;
+  padding-bottom: 14vh;
 }
 
 .padding-list{
@@ -241,7 +262,11 @@
   padding-right: 3rem;
   padding-top: 10rem;
 }
-
+.question-title-section{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
 
 @keyframes fadeIn {
   from {transform: translateY(-10rem); opacity: 0;}
