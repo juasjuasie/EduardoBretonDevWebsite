@@ -43,7 +43,7 @@ aboutMain:
  </div> ,
  
  projects: <h3 className="title centered"> Projects</h3>,
- projectsMain: <p className="list-intro"> Here is a list of all projects, made alone or with a team, released publicly through Github: </p>,
+ projectsMain: <p className="list-intro"> Here is a list of all projects, made alone or with a team, released publicly through Github ou Gitlab: </p>,
  projectsList:
  <table className="table-contact centered">
    <tr>
@@ -74,7 +74,7 @@ aboutMain:
  question: <h3 className="title centered"> Question box </h3>,
  questionMain:
  <div className="paragraph-limiter centered">
-   <p className="paragraph"> If you have any questions about the site, my projects or about myself, you can send it through this textbox. The question will be stored in a database that I can easily check and treat it accordingly.
+   <p className="paragraph"> If you have any questions about the site, my projects or about myself, you can send it through this textbox. The question will be stored in a database that I can easily read it and treat it accordingly.
  Please note that if you want your question personally answered, you have to include your email address in the text.
  If your question is related to a job or a project offering, please go to the contact page instead.
  A FaQ page could be made if enough questions are sent. </p>
