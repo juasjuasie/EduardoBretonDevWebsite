@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link } from 'react-router-dom'
 import {useLanguage} from '../utils/LanguageContextProvider'
 function QuestionScreen() {
     const [lang, setLang] = useLanguage(); 
@@ -9,6 +10,11 @@ function QuestionScreen() {
         <div className="question-text fade-in text-centered">
             {lang.maintenanceComingSoon}
         </div> 
+        <Link to="/">
+                <p className="button fixed-bottom" >
+                    {lang.goBack}
+                </p>
+        </Link>
     </div>
 }
 
