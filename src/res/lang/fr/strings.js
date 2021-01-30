@@ -41,7 +41,7 @@ aboutMain:
    <p className="paragraph"> Vous pouvez m'appeller avec le numéro téléphone suivante: <p classNam="underlined">+1 581 996 7155</p>  </p>
  </div> ,
  
- projects: <h3 className="title centered"> Projects</h3>,
+ projects: <h3 className="title centered"> Projets</h3>,
  projectsMain: <p className="list-intro"> Voici une liste des projets, fait individuellement ou en équipe, publiés en Github ou Gitlab: </p>,
  projectsList:
  <table className="table-contact centered">
