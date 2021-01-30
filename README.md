@@ -1,3 +1,6 @@
+Source code for my portfolio website.
+# Any bugs, artistitic/code recommendations or other problems related to the websites should be reported in the issues page.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
