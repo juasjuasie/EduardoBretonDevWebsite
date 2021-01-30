@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link } from 'react-router-dom'
 import {useLanguage} from '../utils/LanguageContextProvider'
 function AboutScreen() {
     const [lang, setLang] = useLanguage(); 
@@ -51,6 +52,11 @@ function AboutScreen() {
                 ))}
             </ul>
         </div>
+        <Link to="/">
+                <p className="button fixed-bottom" >
+                    {lang.goBack}
+                </p>
+        </Link>
     </div>
 }
 
