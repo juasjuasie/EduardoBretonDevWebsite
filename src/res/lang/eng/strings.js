@@ -8,24 +8,27 @@ aboutTitle: <h2>Creativity is my finest tool.</h2>,
 aboutMain:
  <div className="paragraph-group">
    <div className="text-space">
-     <h2 className="title">Hello, i'm Eduardo Breton, a canadian developer specialised in the development of desktop programs, mobile apps and videogames.</h2>
+     <h2 className="title">Hello, i'm Eduardo Breton,
+      a canadian developer specialised in the development of desktop programs,
+       mobile apps and videogames.</h2>
    </div>
    <div className="paragraph-limiter centered">
-     <p className="paragraph">I have been working in internships and for the government of Canada, and I am currently interested to work as a freelancer.</p>
+     <p className="paragraph">I have a passion for technology and programs. I especially love apps and 
+     videogames that have a practical use and that create postive effects on people, on organisations and on the enviroment.</p>
    </div>
    <div className="paragraph-limiter centered">
-     <p className="paragraph">Since in my teenage years in the province of Quebec, Canada, i have been a lover of technology and software since i was just a kid and have been
-     overall invested on software and video games that have a meaningful use or that contains a message that makes people change for the better.
-     My ethnic heritage has allowed me to speak and write fluently in french and spanish and had a lot of experience talking with people in these languages.
-     I am hoping the passion i have for the industry translates into great works.</p>
+     <p className="paragraph">My passion for programming creates dynamic projects of high quality.
+     What's more, my cultural heritage (mexican-canadian), my linguistic competences (spanish, english and french)
+     and my curiosity are very important traits in the industry.
+     </p>
    </div>
    <div className="paragraph-limiter centered">
-     <h5 className="paragraph bold"><b>Currently, i am available to work on projects on a flexible, open-ended contracts while studying in Sherbrooke University.</b> </h5>
+     <h5 className="paragraph bold"><b>Currently, i am available to work on contracts while continuing my studies in Sherbrooke University.</b> </h5>
    </div>
  </div>,
- aboutSchool: <p className="list-intro"> <b>Academic places and learning sites that contributed to my career:</b> </p>,
- aboutEnterprise: <p className="list-intro"> <b> Enterprises and organisations i worked for:</b> </p>,
- aboutProg: <p className="list-intro"> <b>Languages, Programs, Frameworks and Platforms i had experience with: </b> </p>,
+ aboutSchool: <p className="list-intro"> <b>Education and training sites:</b> </p>,
+ aboutEnterprise: <p className="list-intro"> <b> Employment and internships:</b> </p>,
+ aboutProg: <p className="list-intro"> <b>Experience (Languages, Programs, Frameworks and Platforms): </b> </p>,
  
  contact: <h3 className="title centered">Contact</h3>,
  contactMain:
@@ -34,12 +37,12 @@ aboutMain:
    {"  "}
    </p>
    <p className="paragraph p-with-address"> For internships, please send it through my college's account: <address className="paragraph p-with-address"> <a href="mailto:Eduardo.Yvan.Breton.Corona@udesherbrooke.ca">Eduardo.Yvan.Breton.Corona@udesherbrooke.ca</a> </address>
-   {"  "}For any questions related to the state of the website or other subjects please send it to the questions page (Coming soon).
-   Please note that any references need to be requested before or after the interview so i can inform them they will be contacted by you. Their contact info will be sent by email as soon as possible. </p>
+   {"  "}For any questions related to the state of the website or other subjects a questions page will be made soon.
+  </p>
  </div>,
  contactTel:
  <div className="paragraph-limiter centered justify-center">
-   <p className="paragraph"> You can also call me with the following number: <p classNam="underlined">+1 581 996 7155</p>  </p>
+   <p className="paragraph"> You can also call me: <p classNam="underlined">+1 581 996 7155</p>  </p>
  </div> ,
  
  projects: <h3 className="title centered"> Projects</h3>,
