@@ -67,7 +67,7 @@ function QuestionScreen() {
         <div className="question-text fade-in text-centered">
             {lang.questionMain}
         </div> 
-        <form onSubmit={handleSubmit} method="POST">
+        <form action="https://formspree.io/f/xrgodazq" onSubmit={handleSubmit} method="POST">
             <textarea value={content.content} onChange={handleContentChange} required className="question-text-area" id="content" name="_replyto"></textarea>
             <input type="submit" className="send-btn button"  disabled={status.submitting}></input>
             <br/>
