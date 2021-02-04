@@ -34,7 +34,7 @@ function QuestionScreen() {
         e.preventDefault()
         setStatus((prevStatus) => ({ ...prevStatus, submitting: true }))
         axios({
-          method: 'POST',
+          method: "POST",
           url: 'https://formspree.io/f/xrgodazq',
           data: content,
         })
