@@ -35,7 +35,7 @@ function QuestionScreen() {
         setStatus((prevStatus) => ({ ...prevStatus, submitting: true }))
         axios({
           method: 'POST',
-          url: 'https://formspree.io/f/xrgodazq',
+          url: 'https://formspree.io/xrgodazq',
           data: content,
         })
           .then((response) => {
@@ -68,8 +68,8 @@ function QuestionScreen() {
             {lang.questionMain}
         </div> 
         <form onSubmit={handleSubmit}>
-            <textarea value={content.content} onChange={handleContentChange} required className="question-text-area" id="content" name="content"></textarea>
-            <input type="submit" className="send-btn button"></input>
+            <textarea value={content.content} onChange={handleContentChange} required className="question-text-area" id="content" name="_replyto"></textarea>
+            <input type="submit" className="send-btn button"  disabled={status.submitting}></input>
             <br/>
             <div class="g-recaptcha g-recaptcha-response" data-sitekey="6LcV_UkaAAAAABrU4ySkYCeu31jgWB9cPdWfcrB7"></div>
         </form>
