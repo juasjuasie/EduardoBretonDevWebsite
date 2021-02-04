@@ -35,7 +35,7 @@ function QuestionScreen() {
         setStatus((prevStatus) => ({ ...prevStatus, submitting: true }))
         axios({
           method: 'POST',
-          url: 'https://formspree.io/xrgodazq',
+          url: 'https://formspree.io/f/xrgodazq',
           data: content,
         })
           .then((response) => {
@@ -67,7 +67,7 @@ function QuestionScreen() {
         <div className="question-text fade-in text-centered">
             {lang.questionMain}
         </div> 
-        <form onSubmit={handleSubmit} method='POST'>
+        <form onSubmit={handleSubmit} method="POST">
             <textarea value={content.content} onChange={handleContentChange} required className="question-text-area" id="content" name="_replyto"></textarea>
             <input type="submit" className="send-btn button"  disabled={status.submitting}></input>
             <br/>
