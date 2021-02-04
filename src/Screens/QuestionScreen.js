@@ -71,7 +71,7 @@ function QuestionScreen() {
             <textarea value={content.content} onChange={handleContentChange} required className="question-text-area" id="content" name="content"></textarea>
             <input type="submit" className="send-btn button"></input>
             <br/>
-            <div class="g-recaptcha" data-sitekey="6LcV_UkaAAAAABrU4ySkYCeu31jgWB9cPdWfcrB7"></div>
+            <div class="g-recaptcha-response" data-sitekey="6LcV_UkaAAAAABrU4ySkYCeu31jgWB9cPdWfcrB7"></div>
         </form>
         {status.info.error && (
             <div className="error">Error: {status.info.msg}</div>
