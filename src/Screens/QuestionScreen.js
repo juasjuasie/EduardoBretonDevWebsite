@@ -67,6 +67,7 @@ function QuestionScreen() {
         <div className="question-text fade-in text-centered">
             {lang.questionMain}
         </div> 
+       featureQuestionBox
         <form onSubmit={handleSubmit} className="form">
             <textarea value={content.content} onChange={handleContentChange} maxLength="6000" required className="question-text-area" id="content" name="_replyto"></textarea>
             <input type="submit" className="send-btn button"  disabled={status.submitting}></input>
