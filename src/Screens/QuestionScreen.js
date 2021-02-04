@@ -67,11 +67,9 @@ function QuestionScreen() {
         <div className="question-text fade-in text-centered">
             {lang.questionMain}
         </div> 
-        <form action="https://formspree.io/f/xrgodazq" onSubmit={handleSubmit} method="POST">
+        <form onSubmit={handleSubmit}>
             <textarea value={content.content} onChange={handleContentChange} required className="question-text-area" id="content" name="_replyto"></textarea>
             <input type="submit" className="send-btn button"  disabled={status.submitting}></input>
-            <br/>
-            <div class="g-recaptcha g-recaptcha-response" data-sitekey="6LcV_UkaAAAAABrU4ySkYCeu31jgWB9cPdWfcrB7"></div>
         </form>
         {status.info.error && (
             <div className="error">Error: {status.info.msg}</div>
