@@ -41,7 +41,7 @@ function QuestionScreen() {
           .then((response) => {
             handleServerResponse(
               true,
-              'Thank you, your message has been submitted.'
+              lang.msgSendOk
             )
           })
           .catch((error) => {
@@ -67,16 +67,19 @@ function QuestionScreen() {
         <div className="question-text fade-in text-centered">
             {lang.questionMain}
         </div> 
-        <form onSubmit={handleSubmit}>
-            <textarea value={content.content} onChange={handleContentChange} required className="question-text-area" id="content" name="_replyto"></textarea>
+       featureQuestionBox
+        <form onSubmit={handleSubmit} className="form">
+            <textarea value={content.content} onChange={handleContentChange} maxLength="6000" required className="question-text-area" id="content" name="_replyto"></textarea>
             <input type="submit" className="send-btn button"  disabled={status.submitting}></input>
         </form>
         {status.info.error && (
             <div className="error">Error: {status.info.msg}</div>
         )}
         {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
-        <Link to="/" className="button fixed-bottom">
+        <Link to="/">
+        <p className="button fixed-bottom">
             {lang.goBack}
+        </p>    
         </Link>
     </div>
 }

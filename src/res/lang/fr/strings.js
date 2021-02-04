@@ -90,5 +90,6 @@ aboutMain:
  
  questionBtn: <p> Envoyer Question</p>,
  goBack: <p> Retourner </p>,
- maintenanceComingSoon: <h3 className="title centered red" > Cette fonctionnalité sera bientôt disponible! </h3>
+ maintenanceComingSoon: <h3 className="title centered red" > Cette fonctionnalité sera bientôt disponible! </h3>,
+ msgSendOk: 'Merci, votre message a été soumis.'
 }
