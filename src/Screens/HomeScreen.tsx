@@ -4,7 +4,7 @@ import {useCurrentLang} from '../utils/useCurrentLang'
 import {useLanguage} from '../utils/LanguageContextProvider'
 
 const { Link } = require("react-router-dom");
-
+console.log(terminalImage);
 function HomeScreen() {
     const [lang, setLang] = useLanguage();
     return <div className="home">
@@ -32,7 +32,7 @@ function HomeScreen() {
             </Link>
         </ul>
         <div className="home-main-image fade-in">
-            <img src={terminalImage} />
+            <img src={terminalImage.default} alt={"Terminal"}/>
         </div>
     </div>
 }
