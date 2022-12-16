@@ -1,4 +1,5 @@
-import React,{useState} from 'react';
+import {useState} from 'react';
+import * as React from 'react';
 import {Link } from 'react-router-dom'
 import {useLanguage} from '../utils/LanguageContextProvider'
 import axios from 'axios'
@@ -11,7 +12,7 @@ function QuestionScreen() {
     const [lang, setLang] = useLanguage();
     const [content, setContent] = useState({
         content: '',
-      }) 
+      })
 
     const handleServerResponse = (ok, msg) => {
         if (ok) {
@@ -25,6 +26,8 @@ function QuestionScreen() {
           })
         } else {
           setStatus({
+            submitted: false,
+            submitting: false,
             info: { error: true, msg: msg },
           })
         }
@@ -66,9 +69,9 @@ function QuestionScreen() {
         </div>
         <div className="question-text fade-in text-centered">
             {lang.questionMain}
-        </div> 
+        </div>
         <form onSubmit={handleSubmit} className="form">
-            <textarea value={content.content} onChange={handleContentChange} maxLength="6000" required className="question-text-area" id="content" name="_replyto"></textarea>
+            <textarea value={content.content} onChange={handleContentChange} maxLength={6000} required className="question-text-area" id="content" name="_replyto"></textarea>
             <input type="submit" className="send-btn button"  disabled={status.submitting}></input>
         </form>
         {status.info.error && (
@@ -78,7 +81,7 @@ function QuestionScreen() {
         <Link to="/">
         <p className="button fixed-bottom">
             {lang.goBack}
-        </p>    
+        </p>
         </Link>
     </div>
 }

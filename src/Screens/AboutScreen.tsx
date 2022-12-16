@@ -1,8 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 import {Link } from 'react-router-dom'
 import {useLanguage} from '../utils/LanguageContextProvider'
 function AboutScreen() {
-    const [lang, setLang] = useLanguage(); 
+    const [lang, setLang] = useLanguage();
     var imageCorpList = [];
     var imageLangList = [];
     var imageEducList = [];
@@ -25,7 +25,7 @@ function AboutScreen() {
                 <li className="fade-in" key={image.default} >
                     <img className="logo" src={image.default}></img>
                     {console.log(image)}
-                </li>   
+                </li>
                 ))}
             </ul>
         </div>
@@ -37,7 +37,7 @@ function AboutScreen() {
                 {imageLangList.map(image => (
                 <li className=" fade-in" key={image.default}>
                     <img className="logo"  src={image.default}></img>
-                </li>   
+                </li>
                 ))}
             </ul>
         </div>
@@ -49,7 +49,7 @@ function AboutScreen() {
                 {imageEducList.map(image => (
                 <li className="fade-in" key={image.default}>
                     <img className="logo"  src={image.default}></img>
-                </li>   
+                </li>
                 ))}
             </ul>
         </div>

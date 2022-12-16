@@ -1,8 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 import {Link } from 'react-router-dom'
 import {useLanguage} from '../utils/LanguageContextProvider'
 function ContactScreen() {
-    const [lang, setLang] = useLanguage(); 
+    const [lang, setLang] = useLanguage();
     return <div>
         <div className="contact-title-section fade-in text-centered">
             {lang.contact}
@@ -10,7 +10,7 @@ function ContactScreen() {
         <div className="contact-text fade-in text-centered">
             {lang.contactMain}
             {lang.contactTel}
-        </div> 
+        </div>
         <Link to="/">
                 <p className="button fixed-bottom" >
                     {lang.goBack}
