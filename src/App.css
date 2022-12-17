@@ -2,7 +2,7 @@
 
 .grid-container{
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
   "header"
   "main"
   "footer";
@@ -48,7 +48,7 @@
   grid-area: main;
   display: flex;
   flex-direction: column;
-  background-image: url("res/background_min.jpg");
+  background-image: linear-gradient(to right, #c954ff, rgb(221, 17, 221), #6a82fb);
 }
 
 .footer{
@@ -72,7 +72,7 @@
   flex-grow: 1;
   align-items: center;
   justify-content: center;
-  
+
 }
 .menu-list{
   display: flex;
@@ -138,7 +138,7 @@
   max-width: 45%;
 }
 .home-main-image img{
-  
+
   max-width: 99%;
 }
 
@@ -172,14 +172,22 @@
   flex-wrap: wrap;
   list-style-type: none;
 }
- 
+
 .logo-list{
   display: flex;
-  justify-content: left;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   list-style-type: none;
   padding-bottom: 10rem;
+}
+
+.about-list{
+  width: 37rem;
+  max-height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .logo-list img {
@@ -299,6 +307,8 @@
   align-self:flex-end;
   justify-self: flex-end;
 }
+
+
 @keyframes fadeIn {
   from {transform: translateY(-10rem); opacity: 0;}
   to {transform: translateY(0); opacity: 1;}

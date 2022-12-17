@@ -1,12 +1,10 @@
 import * as React from 'react';
 import * as terminalImage from '../res/images/GNOMETerminalIcon.png';
-import {useCurrentLang} from '../utils/useCurrentLang'
 import {useLanguage} from '../utils/LanguageContextProvider'
 
 const { Link } = require("react-router-dom");
-console.log(terminalImage);
 function HomeScreen() {
-    const [lang, setLang] = useLanguage();
+    const [lang,] = useLanguage();
     return <div className="home">
         <ul className="menu-list">
             <Link to="/about">

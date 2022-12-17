@@ -9,7 +9,7 @@ function QuestionScreen() {
         submitting: false,
         info: { error: false, msg: null },
       })
-    const [lang, setLang] = useLanguage();
+    const [lang, ] = useLanguage();
     const [content, setContent] = useState({
         content: '',
       })

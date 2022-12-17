@@ -6,7 +6,7 @@ import ContactScreen from  './Screens/ContactScreen'
 import ProjectScreen from  './Screens/ProjectScreen'
 import QuestionScreen from  './Screens/QuestionScreen'
 import './App.css';
-import {LanguageProvider, useLanguage} from './utils/LanguageContextProvider'
+import {useLanguage} from './utils/LanguageContextProvider'
 function App() {
   const [lang, setLang] = useLanguage();
   const handleLanguageChange = () => {
