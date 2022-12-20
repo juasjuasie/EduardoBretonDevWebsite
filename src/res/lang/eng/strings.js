@@ -13,7 +13,7 @@ aboutMain:
        mobile apps and videogames.</h2>
    </div>
    <div className="paragraph-limiter centered">
-     <p className="paragraph">I have a passion for technology and programs. I especially love apps and 
+     <p className="paragraph">I have a passion for technology and programs. I especially love apps and
      videogames that have a practical use and that create postive effects on people, on organisations and on the enviroment.</p>
    </div>
    <div className="paragraph-limiter centered">
@@ -29,7 +29,7 @@ aboutMain:
  aboutSchool: <p className="list-intro"> <b>Education and training sites:</b> </p>,
  aboutEnterprise: <p className="list-intro"> <b> Employment and internships:</b> </p>,
  aboutProg: <p className="list-intro"> <b>Experience (Languages, Programs, Frameworks and Platforms): </b> </p>,
- 
+
  contact: <h3 className="title centered">Contact</h3>,
  contactMain:
  <div className="paragraph-limiter centered justify-center">
@@ -44,7 +44,7 @@ aboutMain:
  <div className="paragraph-limiter centered justify-center">
    <p className="paragraph"> You can also call me: <p classNam="underlined">+1 581 996 7155</p>  </p>
  </div> ,
- 
+
  projects: <h3 className="title centered"> Projects</h3>,
  projectsMain: <p className="list-intro"> Here is a list of all projects, made alone or with a team, released publicly through Github ou Gitlab: </p>,
  projectsList:
@@ -82,7 +82,7 @@ aboutMain:
  If your question is related to a job or a project offering, please go to the contact page instead.
  A FaQ page could be made if enough questions are sent. </p>
  </div>,
- 
+
  questionBtn: <p> Send Question </p>,
  goBack: <p> Go Back </p>,
  maintenanceComingSoon: <h3 className="title centered red" > Feature coming soon! </h3>,
