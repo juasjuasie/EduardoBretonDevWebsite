@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import {strings as frstrings} from '../res/lang/fr/strings'
 import {strings as engstrings} from '../res/lang/eng/strings'
 
@@ -15,7 +15,7 @@ const LanguageContext = React.createContext(null);
 
 function LanguageProvider({ initialState = 'en', children }) {
     const [lang, setLang] = React.useState(initialState);
-  
+
     return (
       <LanguageContext.Provider value={[langDict(lang), setLang]}>
         {children}

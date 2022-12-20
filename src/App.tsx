@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 import HomeScreen from  './Screens/HomeScreen'
 import AboutScreen from  './Screens/AboutScreen'
@@ -6,9 +6,9 @@ import ContactScreen from  './Screens/ContactScreen'
 import ProjectScreen from  './Screens/ProjectScreen'
 import QuestionScreen from  './Screens/QuestionScreen'
 import './App.css';
-import {LanguageProvider, useLanguage} from './utils/LanguageContextProvider'
+import {useLanguage} from './utils/LanguageContextProvider'
 function App() {
-  const [lang, setLang] = useLanguage(); 
+  const [lang, setLang] = useLanguage();
   const handleLanguageChange = () => {
     if (lang.lang === 'eng'){
       setLang('fr')
@@ -16,7 +16,7 @@ function App() {
       setLang('en')
     }
   }
-  return (  
+  return (
       <BrowserRouter>
         <div className="grid-container">
           <header className="header">
@@ -50,7 +50,7 @@ function App() {
           </footer>
         </div>
       </BrowserRouter>
-   
+
   );
 }
 

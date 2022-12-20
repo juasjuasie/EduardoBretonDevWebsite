@@ -1,12 +1,10 @@
-import React from 'react';
-import terminalImage from '../res/images/GNOMETerminalIcon.png';
-import {useCurrentLang} from '../utils/useCurrentLang'
+import * as React from 'react';
+import * as terminalImage from '../res/images/GNOMETerminalIcon.png';
 import {useLanguage} from '../utils/LanguageContextProvider'
 
 const { Link } = require("react-router-dom");
-
 function HomeScreen() {
-    const [lang, setLang] = useLanguage(); 
+    const [lang,] = useLanguage();
     return <div className="home">
         <ul className="menu-list">
             <Link to="/about">
@@ -14,7 +12,7 @@ function HomeScreen() {
                     {lang.about}
                 </li>
             </Link>
-            
+
             <Link to="/contact">
                 <li className="fade-in section about" >
                     {lang.contact}
@@ -32,7 +30,7 @@ function HomeScreen() {
             </Link>
         </ul>
         <div className="home-main-image fade-in">
-            <img src={terminalImage} />
+            <img src={terminalImage.default} alt={"Terminal"}/>
         </div>
     </div>
 }

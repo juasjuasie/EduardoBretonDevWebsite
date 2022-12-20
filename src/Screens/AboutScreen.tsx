@@ -1,8 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 import {Link } from 'react-router-dom'
 import {useLanguage} from '../utils/LanguageContextProvider'
 function AboutScreen() {
-    const [lang, setLang] = useLanguage(); 
+    const [lang, ] = useLanguage();
     var imageCorpList = [];
     var imageLangList = [];
     var imageEducList = [];
@@ -22,10 +22,9 @@ function AboutScreen() {
         <div className="image-show">
             <ul className="corp-list logo-list">
                 {imageCorpList.map(image => (
-                <li className="fade-in" key={image.default} >
-                    <img className="logo" src={image.default}></img>
-                    {console.log(image)}
-                </li>   
+                <li className="fade-in about-list">
+                    <img className="logo" src={image} alt={'logos'}></img>
+                </li>
                 ))}
             </ul>
         </div>
@@ -35,9 +34,9 @@ function AboutScreen() {
         <div className="image-show">
             <ul className="prog-list logo-list">
                 {imageLangList.map(image => (
-                <li className=" fade-in" key={image.default}>
-                    <img className="logo"  src={image.default}></img>
-                </li>   
+                <li className=" fade-in about-list">
+                    <img className="logo" src={image} alt={'logos'}></img>
+                </li>
                 ))}
             </ul>
         </div>
@@ -47,9 +46,9 @@ function AboutScreen() {
         <div className="image-show text-centered">
             <ul className="tool-list logo-list">
                 {imageEducList.map(image => (
-                <li className="fade-in" key={image.default}>
-                    <img className="logo"  src={image.default}></img>
-                </li>   
+                <li className="fade-in about-list">
+                    <img className="logo" src={image} alt={'logos'}></img>
+                </li>
                 ))}
             </ul>
         </div>

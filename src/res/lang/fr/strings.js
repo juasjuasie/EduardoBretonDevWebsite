@@ -8,7 +8,7 @@ aboutTitle: <h2>La créativité est mon outil d'excellence.</h2>,
 aboutMain:
  <div className="paragraph-group">
    <div className="text-space">
-     <h2 className="title"> Allo, je suis Eduardo Breton, 
+     <h2 className="title"> Allo, je suis Eduardo Breton,
      un développeur informatique canadien spécialisé dans le développement de programmes de bureau et d’applications de cellulaire et de jeux vidéo.</h2>
    </div>
    <div className="paragraph-limiter centered">
@@ -30,7 +30,7 @@ aboutMain:
  aboutSchool: <p className="list-intro"> <b>Études et formation:</b> </p>,
  aboutEnterprise: <p className="list-intro"> <b>Emplois et stages:</b> </p>,
  aboutProg: <p className="list-intro"> <b>Expériences (Langages, Programmes, Frameworks et Plateformes): </b> </p>,
- 
+
  contact: <h3 className="title centered">Contact</h3>,
  contactMain:
  <div className="paragraph-limiter centered justify-center">
@@ -49,7 +49,7 @@ aboutMain:
  <div className="paragraph-limiter centered justify-center">
    <p className="paragraph"> Vous pouvez m'appeler au numéro téléphone suivant : <p classNam="underlined">+1 581 996 7155</p>  </p>
  </div> ,
- 
+
  projects: <h3 className="title centered"> Projets</h3>,
  projectsMain: <p className="list-intro"> Voici une liste des projets, fait individuellement ou en équipe, publiés en Github ou Gitlab : </p>,
  projectsList:
@@ -87,9 +87,10 @@ aboutMain:
    Si vos questions concernent une offre de travail ou une offre de projet, vous pouvez visiter ma page de contact.
    Une page de faits et questions peut être faite s' il-y a des questions suffisantes. </p>
  </div>,
- 
+
  questionBtn: <p> Envoyer Question</p>,
  goBack: <p> Retourner </p>,
  maintenanceComingSoon: <h3 className="title centered red" > Cette fonctionnalité sera bientôt disponible! </h3>,
- msgSendOk: 'Merci, votre message a été soumis.'
+ msgSendOk: 'Merci, votre message a été soumis.',
+ email: 'email ici svp'
 }
