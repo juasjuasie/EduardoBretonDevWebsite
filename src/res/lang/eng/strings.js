@@ -86,5 +86,6 @@ aboutMain:
  questionBtn: <p> Send Question </p>,
  goBack: <p> Go Back </p>,
  maintenanceComingSoon: <h3 className="title centered red" > Feature coming soon! </h3>,
- msgSendOk: 'Thank you, your message has been submitted.'
+ msgSendOk: 'Thank you, your message has been submitted.',
+ email: 'type here your email'
 }

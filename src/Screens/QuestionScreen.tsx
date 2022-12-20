@@ -12,6 +12,7 @@ function QuestionScreen() {
     const [lang, ] = useLanguage();
     const [content, setContent] = useState({
         content: '',
+        email: '',
       })
 
     const handleServerResponse = (ok, msg) => {
@@ -23,6 +24,7 @@ function QuestionScreen() {
           })
           setContent({
             content: '',
+            email: '',
           })
         } else {
           setStatus({
@@ -35,21 +37,27 @@ function QuestionScreen() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        setStatus((prevStatus) => ({ ...prevStatus, submitting: true }))
-        axios({
-          method: "POST",
-          url: 'https://formspree.io/f/xrgodazq',
-          data: content,
-        })
-          .then((response) => {
-            handleServerResponse(
-              true,
-              lang.msgSendOk
-            )
+        if(content.content && content.email.length > 0)
+        {
+          setStatus((prevStatus) => ({ ...prevStatus, submitting: true }))
+          axios({
+            method: "POST",
+            url: 'https://formspree.io/f/xrgodazq',
+            data: content,
           })
-          .catch((error) => {
-            handleServerResponse(false, error.response.data.error)
-          })
+            .then((response) => {
+              handleServerResponse(
+                true,
+                lang.msgSendOk
+              )
+            })
+            .catch((error) => {
+              handleServerResponse(false, error.response.data.error)
+            })
+        }
+        else {
+          handleServerResponse(false, 'One of the input fields are empty')
+        }
       }
     const handleContentChange = (e) => {
         e.persist()
@@ -63,6 +71,19 @@ function QuestionScreen() {
         info: { error: false, msg: null },
         })
     }
+
+    const handleEmailChange = (e) => {
+      e.persist()
+      setContent((prev) => ({
+      ...prev,
+      email: e.target.value,
+      }))
+      setStatus({
+      submitted: false,
+      submitting: false,
+      info: { error: false, msg: null },
+      })
+  }
     return <div className="question-title-section">
         <div className="fade-in text-centered">
             {lang.question}
@@ -71,6 +92,7 @@ function QuestionScreen() {
             {lang.questionMain}
         </div>
         <form onSubmit={handleSubmit} className="form">
+            <input type="email" value={content.email} className="email" placeholder={lang.email} onChange={handleEmailChange}></input>
             <textarea value={content.content} onChange={handleContentChange} maxLength={6000} required className="question-text-area" id="content" name="_replyto"></textarea>
             <input type="submit" className="send-btn button"  disabled={status.submitting}></input>
         </form>

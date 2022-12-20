@@ -297,6 +297,10 @@
   height: 100%;
   padding-bottom: 10vh;
 }
+.email{
+  align-self: normal;
+  margin-bottom: 1rem;
+}
 .question-text-area{
   width: 100%;
   height: 90%;
