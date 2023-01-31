@@ -36,7 +36,7 @@ aboutMain:
    <p className="paragraph p-with-address"> For any direct contact request for business, about any of the projects i publicly released through Github, or job offerings, please send your message through my email : <address className="paragraph p-with-address"> <a href="mailto:EduardoBretonDev@outlook.com">EduardoBretonDev@outlook.com</a> </address>
    {"  "}
    </p>
-   <p className="paragraph p-with-address"> For internships, please send it through my college's account: <address className="paragraph p-with-address"> <a href="mailto:Eduardo.Yvan.Breton.Corona@udesherbrooke.ca">Eduardo.Yvan.Breton.Corona@udesherbrooke.ca</a> </address>
+   <p className="paragraph p-with-address"> For internships, please send it through my college's account: <address className="paragraph p-with-address"> <a href="mailto:Eduardo.Yvan.Breton.Corona@usherbrooke.ca">Eduardo.Yvan.Breton.Corona@usherbrooke.ca</a> </address>
    {"  "}For any questions related to the state of the website or other subjects a questions page will be made soon.
   </p>
  </div>,
