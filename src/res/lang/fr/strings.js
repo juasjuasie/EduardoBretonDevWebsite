@@ -42,7 +42,7 @@ aboutMain:
    {"  "}
    </p>
    <p className="paragraph p-with-address"> Pour des offres de stages, s.v.p. envoyez-les dans mon compte académique : <address className="paragraph p-with-address"> <a href="mailto:Eduardo.Yvan.Breton.Corona@usherbrooke.ca">Eduardo.Yvan.Breton.Corona@usherbrooke.ca</a> </address>
-   {"  "}Pour toute question reliée à l'état de ce site web ou autres sujets, une boite de questions est en élaboration.
+   {"  "}Pour toute question reliée à l'état de ce site web ou autres sujets, une boîte de questions est en élaboration.
    </p>
  </div>,
  contactTel:
