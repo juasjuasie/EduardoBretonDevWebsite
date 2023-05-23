@@ -9,21 +9,21 @@ aboutMain:
  <div className="paragraph-group">
    <div className="text-space">
      <h2 className="title">Hello, i'm Eduardo Breton,
-      a canadian developer specialised in the development of desktop programs,
-       mobile apps and videogames.</h2>
+      a canadian developer specialized in the development of desktop programs,
+       mobile apps and video games.</h2>
    </div>
    <div className="paragraph-limiter centered">
-     <p className="paragraph">I have a passion for technology and programs. I especially love apps and
-     videogames that have a practical use and that create postive effects on people, on organisations and on the enviroment.</p>
+     <p className="paragraph">I have a passion for technology and creating programs. I especially love apps and
+     video games that have a practical use and create positive effects on people, and even on organizations or the environment!</p>
    </div>
    <div className="paragraph-limiter centered">
-     <p className="paragraph">My passion for programming creates dynamic projects of high quality.
-     What's more, my cultural heritage (mexican-canadian), my linguistic competences (spanish, english and french)
-     and my curiosity are very important traits in the industry.
+     <p className="paragraph">My passion for programming has given out dynamic projects of high quality.
+     What's even more awesome, my cultural heritage (mexican-canadian), my linguistic competences (spanish, english and french)
+     and my curiosity are very important traits for the industry i work with.
      </p>
    </div>
    <div className="paragraph-limiter centered">
-     <h5 className="paragraph bold"><b>Currently, i am available to work on contracts while continuing my studies in Sherbrooke University.</b> </h5>
+     <h5 className="paragraph bold"><b>Currently, i am available to work on contracts or internships while continuing my studies in Sherbrooke University.</b> </h5>
    </div>
  </div>,
  aboutSchool: <p className="list-intro"> <b>Education and training sites:</b> </p>,
@@ -46,7 +46,7 @@ aboutMain:
  </div> ,
 
  projects: <h3 className="title centered"> Projects</h3>,
- projectsMain: <p className="list-intro"> Here is a list of all projects, made alone or with a team, released publicly through Github ou Gitlab: </p>,
+ projectsMain: <p className="list-intro"> Here is a list of all projects, made alone or with a team, released publicly through Github or Gitlab: </p>,
  projectsList:
  <table className="table-contact centered">
    <tr>
@@ -77,7 +77,7 @@ aboutMain:
  question: <h3 className="title centered"> Question box </h3>,
  questionMain:
  <div className="paragraph-limiter centered">
-   <p className="paragraph"> If you have any questions about the site, my projects or about myself, you can send it through this textbox. The question will be stored in a database that I can easily read it and treat it accordingly.
+   <p className="paragraph"> If you have any questions about the site, my projects or about myself, you can send it through this text-box. The question will be stored in a database that I can easily read it and treat it accordingly.
  Please note that if you want your question personally answered, you have to include your email address in the text.
  If your question is related to a job or a project offering, please go to the contact page instead.
  A FaQ page could be made if enough questions are sent. </p>
