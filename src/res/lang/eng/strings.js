@@ -17,9 +17,12 @@ aboutMain:
      video games that have a practical use and create positive effects on people, and even on organizations or the environment!</p>
    </div>
    <div className="paragraph-limiter centered">
-     <p className="paragraph">My passion for programming has given out dynamic projects of high quality.
-     What's even more awesome, my cultural heritage (mexican-canadian), my linguistic competences (spanish, english and french)
-     and my curiosity are very important traits for the industry i work with.
+     <p className="paragraph">My passion for programming has produced dynamic projects of high quality. Mainly websites and games. I have workplace experience and i am conditioned to adapt to new work and challenges on the fly and be harmonious
+     with the team and fellow coworkers.
+     <br/><br/>
+
+     What's awesome, my cultural heritage (mexican-canadian), my linguistic skills (spanish, english and french)
+     and my curiosity for learning have aided with communicating with people in the workplace that are not always comfortable with English or French.
      </p>
    </div>
    <div className="paragraph-limiter centered">

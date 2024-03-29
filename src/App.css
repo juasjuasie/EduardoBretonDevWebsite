@@ -7,7 +7,7 @@
   "main"
   "footer";
   grid-template-columns: 1fr;
-  grid-template-rows: 5rem 1fr 3rem;
+  grid-template-rows: 7rem 1fr 3rem;
   height: 100%;
 }
 
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 1vw;
+  padding: 2rem;
 }
 
 .header-right{
@@ -39,9 +39,9 @@
 }
 
 .header-side{
-  padding-left: 1rem;
-  font-size: 1vw;
-  padding-top: 1rem;;
+  padding-left: 4rem;
+  font-size: 1.2vw;
+  padding-top: 0.9vw;
 }
 
 .main {
@@ -151,7 +151,9 @@
   text-align: center;
   color: white;
   text-decoration: none;
-  padding: .5rem;
+  padding: .8vw;
+  font-size: 1vw;
+  font-weight: bold;
 }
 .fixed-bottom{
   position: fixed;
@@ -197,9 +199,9 @@
 
 .logo {
   width: 100%;
-  max-height: auto;
-  max-width: 18vw;
-  min-height: 5vh;
+  height: auto;
+  object-fit: contain;
+  max-height: 200px;
 }
 
 .text-space{
@@ -226,6 +228,7 @@
   font-size: 2.5vw;
   padding-left: 2rem;
   padding-right: 2rem;
+  margin-bottom: -9rem;
 }
 @media only screen and (max-width: 740px) {
   .title{
@@ -233,7 +236,7 @@
   }
 }
 .paragraph-group{
-  padding-bottom: 40rem;
+  padding-bottom: 35rem;
 
 }
 .paragraph-limiter{

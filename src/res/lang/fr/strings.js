@@ -17,11 +17,12 @@ aboutMain:
       les organisations et leurs environnements. </p>
    </div>
    <div className="paragraph-limiter centered">
-     <p className="paragraph">Ma passion pour l'informatique se transforme en des projets dynamiques et des produits de qualité.
-      De plus, mon héritage culturel (mexicain et canadien),
-      mes compétences linguïstiques (espagnol, anglais, français) et ma curiosité sont des atouts importants dans le milieu.
-      Depuis quelques années, j'ai eu des emplois étudiants pour le gouvernement du Canada (Emploi et développement social) et du Québec (CNESST)
-      et j’ai réalisé un stage pour le groupe Québécor Média (Numériq).</p>
+     <p className="paragraph"> Ma passion pour la programmation a produit des projets dynamiques et de haute qualité. Surtout pour des sites web et des jeux vidéo.
+     J’ai de l’expérience sur le lieu de travailet par conséquent je suis conditionné à l’adaptation,
+     à solutionner des problèmes sur le tas et encourage l’harmonie entre mes coéquipiers
+     <br/><br/>
+
+     Ce qui est incroyable, mon héritage culturelle (mexico-canadien), mes compétences linguistiques (espagnol, anglais et français) et ma curiosité pour apprendre m'ont aidé beaucoup avec la communication avec des personnes au travail qui ne sont pas toujours confortable avec l'anglais ou le français.  </p>
    </div>
    <div className="paragraph-limiter centered">
      <h5 className="paragraph bold"><b>Actuellement, je suis disponible pour réaliser des contrats tout en poursuivant mes études en informatique à l'Université de Sherbrooke.</b> </h5>
