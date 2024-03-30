@@ -52,41 +52,49 @@ aboutMain:
  </div> ,
 
  projects: <h3 className="title centered"> Projets</h3>,
- projectsMain: <p className="list-intro"> Voici une liste des projets, fait individuellement ou en équipe, publiés en Github ou Gitlab : </p>,
+ projectsMain: <p className="list-intro table-intro"> Voici une liste des projets, fait individuellement ou en équipe, publiés en Github ou Gitlab: </p>,
  projectsList:
  <table className="table-contact centered">
    <tr>
-     <th>Adresse URL</th>
+     <th>Code Source</th>
      <th>Description du Projet</th>
+     <th>Executables</th>
    </tr>
    <tr>
      <td> <a href="https://gitlab.com/juasjuasie/projet-synthese">https://gitlab.com/juasjuasie/projet-synthese</a> </td>
      <td>Jeu 2D shooter fait en Unity</td>
+     <td> <a href="https://ghostthehuman.itch.io/be-bold">Télécharger</a></td>
    </tr>
    <tr>
      <td> <a href="https://gitlab.com/juasjuasie/flappybirddemo">https://gitlab.com/juasjuasie/flappybirddemo</a></td>
      <td>Copie de Flappy bird fait en Unity</td>
+     <td>Non disponible</td>
+   </tr>
+   <tr>
+     <td> <a href="https://github.com/ddufourm/Chatbarnak">https://github.com/ddufourm/Chatbarnak</a></td>
+     <td>Jeu realisé en 2 jours en Godot poue le Sherbrooke Game Jam 2024</td>
+     <td> <a href="https://ddufourm.itch.io/chatbarnak">Jouez-le!</a></td>
    </tr>
    <tr>
      <td> <a href="https://gitlab.com/juasjuasie/mobile2_tp3">https://gitlab.com/juasjuasie/mobile2_tp3</a></td>
      <td>Application android qui t'enseigne les éléments basiques de l'alphabet hiragana</td>
+     <td>Non disponible</td>
    </tr>
    <tr>
      <td> <a href="https://github.com/juasjuasie/EduardoBretonDevWebsite">https://github.com/juasjuasie/EduardoBretonDevWebsite</a></td>
      <td>Code source du site!</td>
+     <td>Non disponible</td>
    </tr>
    <tr>
      <td> <a href="https://github.com/juasjuasie/ExempleBluetoothFinal">https://github.com/juasjuasie/ExempleBluetoothFinal</a></td>
      <td>Application android qui te démontre une connection bluetooth vers autres dispositifs.</td>
+     <td>Non disponible</td>
    </tr>
  </table>,
  question: <h3 className="title centered"> Boîte de questions </h3>,
  questionMain:
  <div className="paragraph-limiter centered">
-   <p className="paragraph"> Si vous avez des questions sur le site, sur mes projets ou sur moi, vous pouvez l'envoyer dans cette boîte.
-   S.V.P Si vous voulez que vos questions soient répondues, merci d’inclure votre courriel.
-   Si vos questions concernent une offre de travail ou une offre de projet, vous pouvez visiter ma page de contact.
-   Une page de faits et questions peut être faite s' il-y a des questions suffisantes. </p>
+   <p className="paragraph"> Si vous avez des questions sur le site, sur mes projets ou sur moi, vous pouvez l'envoyer dans cette boîte. S.V.P. si vous voulez que vos questions soient répondues, merci de l’inclure votre courriel. Si vos questions concernent une offre de travail ou une offre de projet, vous pouvez visiter ma page de contact.</p>
  </div>,
 
  questionBtn: <p> Envoyer Question</p>,

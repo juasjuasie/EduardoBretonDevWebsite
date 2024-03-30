@@ -32,7 +32,7 @@ function AboutScreen() {
             {lang.aboutProg}
         </div>
         <div className="image-show">
-            <ul className="prog-list logo-list">
+<ul className="prog-list logo-list">
                 {imageLangList.map(image => (
                 <li className=" fade-in about-list">
                     <img className="logo" src={image} alt={'logos'}></img>
