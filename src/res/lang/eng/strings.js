@@ -59,7 +59,7 @@ aboutMain:
    </tr>
    <tr>
      <td>Source code not available</td>
-     <td>Unreal Engine 5, 3D co-op game made for Ubisoft's Game-Lab competition 2024  </td>
+     <td>3D co-op game made in Unreal Engine 5 for Ubisoft's Game-Lab competition 2024  </td>
      <td> <a href="https://heroinadream.itch.io/prendre-vol">Download it!</a></td>
    </tr>
    <tr>
