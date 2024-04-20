@@ -61,6 +61,11 @@ aboutMain:
      <th>Executables</th>
    </tr>
    <tr>
+     <td>Code source non-disponible </td>
+     <td>Jeu 3D cooperative fait en Unreal Engine 5 pour le concours Game Lab de Ubisoft 2024</td>
+     <td> <a href="https://heroinadream.itch.io/prendre-vol">Télécharger</a></td>
+   </tr>
+   <tr>
      <td> <a href="https://gitlab.com/juasjuasie/projet-synthese">https://gitlab.com/juasjuasie/projet-synthese</a> </td>
      <td>Jeu 2D shooter fait en Unity</td>
      <td> <a href="https://ghostthehuman.itch.io/be-bold">Télécharger</a></td>

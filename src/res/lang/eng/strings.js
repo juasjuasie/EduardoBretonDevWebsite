@@ -58,6 +58,11 @@ aboutMain:
      <th>Binaries</th>
    </tr>
    <tr>
+     <td>Source code not available</td>
+     <td>Unreal Engine 5, 3D co-op game made for Ubisoft's Game-Lab competition 2024  </td>
+     <td> <a href="https://heroinadream.itch.io/prendre-vol">Download it!</a></td>
+   </tr>
+   <tr>
      <td> <a href="https://gitlab.com/juasjuasie/projet-synthese">https://gitlab.com/juasjuasie/projet-synthese</a> </td>
      <td>2D shooter game made in Unity</td>
      <td> <a href="https://ghostthehuman.itch.io/be-bold">Download it!</a></td>
