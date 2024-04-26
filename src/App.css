@@ -358,16 +358,19 @@ th {
   }
 
   .header, .footer{
-    padding: 1rem;
+    padding: 1vw;
   }
 
+  .footer {
+    font-size: 4vw;
+  }
   .brand a{
-    font-size: 5vw;
+    font-size: 3vw;
   }
 
   .header-side{
     padding-left: 2rem;
-    font-size: 3vw;
+    font-size: 2vw;
     padding-top: 0.5vw;
   }
 
@@ -450,7 +453,7 @@ th {
   }
 
   .table-contact{
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   th, td{
