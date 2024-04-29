@@ -26,7 +26,7 @@ aboutMain:
      </p>
    </div>
    <div className="paragraph-limiter centered">
-     <h5 className="paragraph bold"><b>Currently, i am available to work on contracts or internships while continuing my studies in Sherbrooke University.</b> </h5>
+     <h5 className="paragraph bold"><b>Currently, i am available to work on employments or internships while finishing my studies in Sherbrooke University. I will graduate in August 2024</b> </h5>
    </div>
  </div>,
  aboutSchool: <p className="list-intro"> <b>Education and training sites:</b> </p>,

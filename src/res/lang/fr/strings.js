@@ -25,7 +25,7 @@ aboutMain:
      Ce qui est incroyable, mon héritage culturelle (mexico-canadien), mes compétences linguistiques (espagnol, anglais et français) et ma curiosité pour apprendre m'ont aidé beaucoup avec la communication avec des personnes au travail qui ne sont pas toujours confortable avec l'anglais ou le français.  </p>
    </div>
    <div className="paragraph-limiter centered">
-     <h5 className="paragraph bold"><b>Actuellement, je suis disponible pour réaliser des contrats tout en poursuivant mes études en informatique à l'Université de Sherbrooke.</b> </h5>
+     <h5 className="paragraph bold"><b>Actuellement, je suis disponible pour réaliser de l'emploi tout en finissant mes études en informatique à l'Université de Sherbrooke. Je vais graduer en août 2024</b> </h5>
    </div>
  </div>,
  aboutSchool: <p className="list-intro"> <b>Études et formation:</b> </p>,
