@@ -48,7 +48,6 @@ aboutMain:
  </div>,
  contactTel:
  <div className="paragraph-limiter centered justify-center">
-   <p className="paragraph"> Vous pouvez m'appeler au numéro téléphone suivant : <p classNam="underlined">+1 581 996 7155</p>  </p>
  </div> ,
 
  projects: <h3 className="title centered"> Projets</h3>,
