@@ -26,7 +26,7 @@ aboutMain:
      </p>
    </div>
    <div className="paragraph-limiter centered">
-     <h5 className="paragraph bold"><b>Currently, i am available to work on employments or internships while finishing my studies in Sherbrooke University. I will graduate in August 2024</b> </h5>
+     <h5 className="paragraph bold"><b>Currently, i am available to work remotely or in the metropolitan area of Quebec city.</b> </h5>
    </div>
  </div>,
  aboutSchool: <p className="list-intro"> <b>Education and training sites:</b> </p>,
@@ -55,6 +55,11 @@ aboutMain:
      <th>Source Code</th>
      <th>Project Description</th>
      <th>Binaries</th>
+   </tr>
+   <tr>
+     <td> <a href="https://github.com/juasjuasie/AventurUS"> </a> https://github.com/juasjuasie/AventurUS </td>
+     <td>"2.5D" simple RPG made in Unreal Engine 5 for the faculty of computer sciences in "Université de Sherbrooke"</td>
+     <td> <a href="https://mega.nz/file/0vNkkDAR#fIjqH93kn3u5zkPpYoQq5yBiec10nLwthApIywL-tk0">Download it!</a></td>
    </tr>
    <tr>
      <td>Source code not available</td>

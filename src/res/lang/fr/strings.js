@@ -1,5 +1,5 @@
 import React from 'react'
-export const strings = {
+export const                    strings = {
 lang : 'fr',
 subtitle: <h3> Développeur de jeux, sites web et applications</h3>,
 traduction: 'English - ENG',
@@ -25,7 +25,7 @@ aboutMain:
      Ce qui est incroyable, mon héritage culturelle (mexico-canadien), mes compétences linguistiques (espagnol, anglais et français) et ma curiosité pour apprendre m'ont aidé beaucoup avec la communication avec des personnes au travail qui ne sont pas toujours confortable avec l'anglais ou le français.  </p>
    </div>
    <div className="paragraph-limiter centered">
-     <h5 className="paragraph bold"><b>Actuellement, je suis disponible pour réaliser de l'emploi tout en finissant mes études en informatique à l'Université de Sherbrooke. Je vais graduer en août 2024</b> </h5>
+     <h5 className="paragraph bold"><b>Actuellement, je suis disponible pour réaliser de l'emploi dans la région de la ville de Québec ou par télétravail</b> </h5>
    </div>
  </div>,
  aboutSchool: <p className="list-intro"> <b>Études et formation:</b> </p>,
@@ -58,6 +58,11 @@ aboutMain:
      <th>Code Source</th>
      <th>Description du Projet</th>
      <th>Executables</th>
+   </tr>
+   <tr>
+     <td> <a href="https://github.com/juasjuasie/AventurUS"> </a> https://github.com/juasjuasie/AventurUS </td>
+     <td>Jeu 2.5D RPG fait en Unreal Engine 5 pour la faculté d'informatique de l'Université de Sherbrooke </td>
+     <td> <a href="https://mega.nz/file/0vNkkDAR#fIjqH93kn3u5zkPpYoQq5yBiec10nLwthApIywL-tk0">Télécharger</a></td>
    </tr>
    <tr>
      <td>Code source non-disponible </td>
