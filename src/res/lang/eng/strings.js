@@ -57,7 +57,7 @@ aboutMain:
      <th>Binaries</th>
    </tr>
    <tr>
-     <td> <a href="https://github.com/juasjuasie/AventurUS"> </a> https://github.com/juasjuasie/AventurUS </td>
+     <td> <a href="https://github.com/juasjuasie/AventurUS"> https://github.com/juasjuasie/AventurUS </a>  </td>
      <td>"2.5D" simple RPG made in Unreal Engine 5 for the faculty of computer sciences in "Université de Sherbrooke"</td>
      <td> <a href="https://mega.nz/file/0vNkkDAR#fIjqH93kn3u5zkPpYoQq5yBiec10nLwthApIywL-tk0">Download it!</a></td>
    </tr>

@@ -60,7 +60,7 @@ aboutMain:
      <th>Executables</th>
    </tr>
    <tr>
-     <td> <a href="https://github.com/juasjuasie/AventurUS"> </a> https://github.com/juasjuasie/AventurUS </td>
+     <td> <a href="https://github.com/juasjuasie/AventurUS"> https://github.com/juasjuasie/AventurUS </a>  </td>
      <td>Jeu 2.5D RPG fait en Unreal Engine 5 pour la faculté d'informatique de l'Université de Sherbrooke </td>
      <td> <a href="https://mega.nz/file/0vNkkDAR#fIjqH93kn3u5zkPpYoQq5yBiec10nLwthApIywL-tk0">Télécharger</a></td>
    </tr>
