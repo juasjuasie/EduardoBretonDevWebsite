@@ -52,47 +52,56 @@ aboutMain:
  projectsList:
  <table className="table-contact centered">
    <tr>
+     <th>Project Name</th>
      <th>Source Code</th>
      <th>Project Description</th>
      <th>Binaries</th>
    </tr>
    <tr>
+     <td>AventurUS</td>
      <td> <a href="https://github.com/juasjuasie/AventurUS"> https://github.com/juasjuasie/AventurUS </a>  </td>
      <td>"2.5D" simple RPG made in Unreal Engine 5 for the faculty of computer sciences in "Université de Sherbrooke"</td>
      <td> <a href="https://mega.nz/file/0vNkkDAR#fIjqH93kn3u5zkPpYoQq5yBiec10nLwthApIywL-tk0">Download it!</a></td>
    </tr>
    <tr>
+     <td>Prendre Vol</td>
      <td>Source code not available</td>
      <td>3D co-op game made in Unreal Engine 5 for Ubisoft's Game-Lab competition 2024  </td>
      <td> <a href="https://heroinadream.itch.io/prendre-vol">Download it!</a></td>
    </tr>
    <tr>
+     <td>Be Bold</td>
      <td> <a href="https://gitlab.com/juasjuasie/projet-synthese">https://gitlab.com/juasjuasie/projet-synthese</a> </td>
      <td>2D shooter game made in Unity</td>
      <td> <a href="https://ghostthehuman.itch.io/be-bold">Download it!</a></td>
 
    </tr>
    <tr>
+     <td>FlappyBirdDemo</td>
      <td> <a href="https://gitlab.com/juasjuasie/flappybirddemo">https://gitlab.com/juasjuasie/flappybirddemo</a></td>
      <td>Flappy bird clone made in Unity</td>
      <td>Not available</td>
    </tr>
    <tr>
+     <td>Chatbarnak</td>
      <td> <a href="https://github.com/ddufourm/Chatbarnak">https://github.com/ddufourm/Chatbarnak</a></td>
      <td>Game realized in 2 days in Godot for the Sherbrooke Game Jam 2024</td>
      <td> <a href="https://ddufourm.itch.io/chatbarnak">Play it!</a></td>
    </tr>
    <tr>
+     <td>HiraganaProject</td>
      <td> <a href="https://gitlab.com/juasjuasie/mobile2_tp3">https://gitlab.com/juasjuasie/mobile2_tp3</a></td>
      <td>Android app that teaches you the basics of the hiragana alphabet</td>
      <td>Not available</td>
    </tr>
    <tr>
+     <td>EduardoBretonDev</td>
      <td> <a href="https://github.com/juasjuasie/EduardoBretonDevWebsite">https://github.com/juasjuasie/EduardoBretonDevWebsite</a></td>
      <td>This site's source code!</td>
      <td>Not available</td>
    </tr>
    <tr>
+     <td>BluetoothProject</td>
      <td> <a href="https://github.com/juasjuasie/ExempleBluetoothFinal">https://github.com/juasjuasie/ExempleBluetoothFinal</a></td>
      <td>Android app that demonstrates a bluetooth connection to other devices.</td>
      <td>Not available</td>

@@ -11,7 +11,7 @@ const lang = {
 
 const langDict = (key) => lang[key]
 
-const LanguageContext = React.createContext(null);
+const LanguageContext = React.createContext([langDict(lang), () => {} ]);
 
 function LanguageProvider({ initialState = 'en', children }) {
     const [lang, setLang] = React.useState(initialState);
