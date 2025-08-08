@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import * as React from 'react';
-import {Link } from 'react-router-dom'
+import {Link } from 'react-router'
 import {useLanguage} from '../utils/LanguageContextProvider'
 import axios from 'axios'
 function QuestionScreen() {

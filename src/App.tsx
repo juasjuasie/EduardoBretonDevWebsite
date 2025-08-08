@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Route, Link, Routes } from 'react-router'
 import HomeScreen from  './Screens/HomeScreen'
 import AboutScreen from  './Screens/AboutScreen'
 import ContactScreen from  './Screens/ContactScreen'
@@ -37,11 +37,13 @@ function App() {
           </header>
           <main className="main">
             <div className="content">
-              <Route path="/" Component={HomeScreen} />
-              <Route path="/about" Component={AboutScreen}/>
-              <Route path="/contact" Component={ContactScreen}/>
-              <Route path="/project" Component={ProjectScreen}/>
-              <Route path="/question" Component={QuestionScreen}/>
+              <Routes>
+                <Route path="/" Component={HomeScreen} />
+                <Route path="/about" Component={AboutScreen}/>
+                <Route path="/contact" Component={ContactScreen}/>
+                <Route path="/project" Component={ProjectScreen}/>
+                <Route path="/question" Component={QuestionScreen}/>
+              </Routes>
             </div>
 
           </main>
