@@ -37,16 +37,16 @@ function App() {
           </header>
           <main className="main">
             <div className="content">
-              <Route path="/" exact={true} component={HomeScreen} />
-              <Route path="/about" component={AboutScreen}/>
-              <Route path="/contact" component={ContactScreen}/>
-              <Route path="/project" component={ProjectScreen}/>
-              <Route path="/question" component={QuestionScreen}/>
+              <Route path="/" Component={HomeScreen} />
+              <Route path="/about" Component={AboutScreen}/>
+              <Route path="/contact" Component={ContactScreen}/>
+              <Route path="/project" Component={ProjectScreen}/>
+              <Route path="/question" Component={QuestionScreen}/>
             </div>
 
           </main>
           <footer className="footer">
-            &#169; 2020 Eduardo Breton
+            &#169; 2025 Eduardo Breton
           </footer>
         </div>
       </BrowserRouter>
